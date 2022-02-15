@@ -42,6 +42,13 @@ return [
             'visibility' => 'public',
         ],
 
+        'hosting' => [
+            'driver' => 'local',
+            'root' => env('APP_HOSTING_DIRECTORY') . '/storage',
+            'url' => env('APP_URL') . '/storage',
+            'visibility' => 'public',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
