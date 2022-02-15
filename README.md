@@ -1,5 +1,9 @@
 # Laravel 9 Starter Kit
 
+This is a starter kit for a new Laravel project. The project is already
+provided with the basic Laravel Breeze authentication. The whole project is
+basically a TALL-stack starter kit.
+
 The package includes:
 - TailwindCSS w/ DaisyUI (you can remove DaisyUI if you prefer to use plain TailwindCSS)
 - AlpineJS
