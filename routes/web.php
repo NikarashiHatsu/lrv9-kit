@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', \App\Http\Livewire\Dashboard::class)->name('dashboard')->middleware('auth');
+
+require __DIR__.'/auth.php';

@@ -17,6 +17,9 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    # DaisyUI Theme
+    'theme' => env('APP_THEME', 'light'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
